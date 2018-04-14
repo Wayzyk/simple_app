@@ -1,0 +1,32 @@
+p
+  strong Name:
+  = @user.name
+
+
+p
+  strong Surname
+  = @user.surname
+
+
+p
+  strong Birth date
+  = @user.date
+
+p
+  strong Gender
+  = @user.gender
+
+p
+  strong Interests:
+  = @user.interests
+
+p
+  strong Avatar
+  = image_tag(@user.avatar_url) if @user.avatar?
+  = @user.avatar
+
+
+
+= link_to 'Back', users_path
+'
+= link_to 'Edit', edit_user_path(@user)

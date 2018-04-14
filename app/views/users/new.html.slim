@@ -1,0 +1,20 @@
+
+h1 Fill in your details
+
+p Put your choice
+
+= simple_form_for @user do |f|
+  = f.input :name, placeholder: 'Type your name'
+  = f.input :surname, placeholder: 'Type your surname'
+  = f.input :date
+  = f.input :gender, as: :radio_buttons,
+          collection: ['Male', 'Female']
+  = f.input :interests, as: :check_boxes,
+          collection: ['Swim', 'Ride', 'Drink', 'Eat']
+  = f.file_field :avatar
+  = f.button :submit
+
+
+
+
+= link_to 'Back', users_path
