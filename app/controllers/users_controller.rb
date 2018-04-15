@@ -1,8 +1,5 @@
 class UsersController < ApplicationController
   skip_before_action :verify_authenticity_token
-  def favicon
-    send_file 'public/favicon.ico', type: 'image/x-icon', disposition: 'inline'
-  end
 
   def index
     @users = User.all
@@ -21,7 +18,6 @@ class UsersController < ApplicationController
   end
 
   def create
-    #raise strong_params.inspect
     @user = User.new(strong_params)
 
 

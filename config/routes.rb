@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
-  #root 'users#show_form'
+  root 'users#index'
 
   resources :users
 
-  get 'favicon', to: "welcome#favicon"
 end

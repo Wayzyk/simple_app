@@ -32,7 +32,6 @@ gem 'jbuilder', '~> 2.5'
 gem 'simple_form', '~> 4.0'
 gem 'slim', '~> 3.0', '>= 3.0.9'
 gem 'carrierwave', '~> 1.2', '>= 1.2.2'
-gem 'rmagick', '~> 2.16'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
