@@ -33,6 +33,7 @@ gem 'simple_form', '~> 4.0'
 gem 'slim', '~> 3.0', '>= 3.0.9'
 gem 'carrierwave', '~> 1.2', '>= 1.2.2'
 gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
+gem 'fog-aws', '~> 2.0', '>= 2.0.1', group: :production
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
