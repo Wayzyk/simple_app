@@ -31,9 +31,11 @@ gem 'jbuilder', '~> 2.5'
 # gem 'mini_magick', '~> 4.8'
 gem 'simple_form', '~> 4.0'
 gem 'slim', '~> 3.0', '>= 3.0.9'
+gem 'rmagick', '~> 2.16'
 gem 'carrierwave', '~> 1.2', '>= 1.2.2'
 gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
 gem 'fog-aws', '~> 2.0', '>= 2.0.1', group: :production
+gem 'fog'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
